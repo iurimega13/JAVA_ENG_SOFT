@@ -1,6 +1,6 @@
 /**
  * @author iuri de araujo
- * @version 1.0
+ * @version 2.0
  * @since 2023-10-12
  * Esta classe é uma calculadora
  */
@@ -12,7 +12,12 @@ public class calculadora {
         Scanner sc = new Scanner(System.in);
         double num1, num2, resultado;
         char operador;
+        boolean continuar = true;
 
+        // Limpar a tela
+        System.out.print("\033[H\033[2J");
+        
+        while (continuar) {
         System.out.println("+---------------------------+");
         System.out.println("| Calculadora de CLI        |");
         System.out.println("+---------------------------+");
@@ -56,5 +61,17 @@ public class calculadora {
         } catch (Exception e) {
             System.out.println("Erro: " + e.getMessage());
         }
+        
+        System.out.println("Deseja continuar? (S/N)");
+        char resposta = sc.next().charAt(0);
+        if (resposta == 'S' || resposta == 's') {
+            continuar = true;
+            // Limpar a tela
+            System.out.print("\033[H\033[2J");
+        } else {
+            continuar = false;
+            System.out.println("Obrigado por usar a calculadora!");
+        }
+        };
     };
-}
+};
