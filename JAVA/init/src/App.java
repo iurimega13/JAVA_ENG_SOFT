@@ -83,5 +83,9 @@ public class App {
 
         // Exemplo de formatação de números com o DecimalFormat
         System.out.println("O número formatado é: " + df.format(numero));
+
+        // Exemplo de saida com o printf
+        System.out.printf("O número formatado é: %.2f", preco);
+
     }
 }
