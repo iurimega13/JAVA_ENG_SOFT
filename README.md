@@ -4,7 +4,7 @@ Criar um readme para um curso de iniciante de java e com uma chicara feita em as
 
 # JAVA_ENG_SOFT
 
-## Curso de Java para iniciantes
+## Curso de Java do curso de Engenharia de Software
 
 Códigos de JAVA
 
