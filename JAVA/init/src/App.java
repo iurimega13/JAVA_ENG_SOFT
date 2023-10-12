@@ -51,7 +51,7 @@ public class App {
         boolean b = false;
         boolean c = a && b; // c é false
         boolean d = a || b; // d é true
-        boolean e = !a; // e é false
+        boolean l = !a; // e é false
         boolean f = a ^ b; // f é true
 
         // Exemplo de deslocamento de bits
@@ -59,5 +59,14 @@ public class App {
         int h = g << 1; // valor binário: 00001010 (valor decimal: 10)
         int i = 10; // valor binário: 00001010
         int j = i >> 1; // valor binário: 00000101 (valor decimal: 5)
+
+        // Exemplo de estrutura try-catch-finally
+        try {
+            int k = 10 / 0; // gera uma exceção de divisão por zero
+        } catch (ArithmeticException e) {
+            System.out.println("Erro: " + e.getMessage());
+        } finally {
+            System.out.println("Fim do programa.");
+        }
     }
 }
