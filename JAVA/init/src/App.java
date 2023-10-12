@@ -5,8 +5,12 @@
  * @since 2023-10-12
  */
 
+import java.util.Scanner;
+
 public class App {
     public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Hello, World!");
         System.out.println("Tentando reaprender a programar em Java.");
 
@@ -66,7 +70,13 @@ public class App {
         } catch (ArithmeticException e) {
             System.out.println("Erro: " + e.getMessage());
         } finally {
-            System.out.println("Fim do programa.");
+            System.out.println("Deu certo!.");
         }
+
+        // Exemplo de entrada de dados e saida de dados
+        System.out.print("Digite um número: ");
+        int numero = scanner.nextInt();
+
+        System.out.println("O número digitado foi: " + numero);
     }
 }
