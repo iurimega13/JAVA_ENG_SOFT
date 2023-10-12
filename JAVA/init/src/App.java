@@ -2,7 +2,7 @@
  * Codigo inicial para o curso de Java.
  * @author Iuri de Araujo
  * @version 1.0
- * @since 2021-03-01
+ * @since 2023-10-12
  */
 
 public class App {
