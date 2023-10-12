@@ -6,10 +6,12 @@
  */
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class App {
     public static void main(String[] args) throws Exception {
         Scanner scanner = new Scanner(System.in);
+        DecimalFormat df = new DecimalFormat("0.00");
 
         System.out.println("Hello, World!");
         System.out.println("Tentando reaprender a programar em Java.");
@@ -78,5 +80,8 @@ public class App {
         int numero = scanner.nextInt();
 
         System.out.println("O número digitado foi: " + numero);
+
+        // Exemplo de formatação de números com o DecimalFormat
+        System.out.println("O número formatado é: " + df.format(numero));
     }
 }
