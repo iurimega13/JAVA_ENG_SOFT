@@ -8,6 +8,10 @@
 import java.util.Scanner;
 //Calculadora de CLI com tratamento de erros
 public class calculadora {
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         double num1, num2, resultado;

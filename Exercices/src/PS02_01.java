@@ -26,6 +26,11 @@ public class Combustivel {
         this.limiteEstoque = limiteEstoque;
     }
 
+    
+    /** 
+     * @param quantidade
+     * @return int
+     */
     public int reporEstoque(int quantidade) {
         if (quantidade < 0) {
             return 0;

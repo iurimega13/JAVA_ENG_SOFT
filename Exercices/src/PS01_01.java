@@ -2,6 +2,11 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class PS01_01 {
+    
+    /** 
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
 
         class MultiplicacaoMatrizes {

@@ -8,6 +8,10 @@ public class pessoa {
     private String cpf;
     private String rg;
 
+    
+    /** 
+     * @param nome
+     */
     // Setters e Getters
     public void setNome(String nome){
         this.nome = nome;
